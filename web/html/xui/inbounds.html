@@ -29,20 +29,20 @@
               <a-card hoverable style="margin-bottom: 20px">
                 <a-row>
                   <a-col :xs="24" :sm="24" :lg="12">
-                    总上传 / 下载：
+                    Total uploads/downloads：
                     <a-tag color="green"
                       >[[ sizeFormat(total.up) ]] / [[ sizeFormat(total.down)
                       ]]</a-tag
                     >
                   </a-col>
                   <a-col :xs="24" :sm="24" :lg="12">
-                    总用量：
+                    Total usage:
                     <a-tag color="green"
                       >[[ sizeFormat(total.up + total.down) ]]</a-tag
                     >
                   </a-col>
                   <a-col :xs="24" :sm="24" :lg="12">
-                    入站数量：
+                    Inbound quantity：
                     <a-tag color="green">[[ dbInbounds.length ]]</a-tag>
                   </a-col>
                 </a-row>
